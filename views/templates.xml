@@ -1,0 +1,60 @@
+<odoo>
+    <data>
+
+        <!-- <template id="_assets_primary_variables" inherit_id="website._assets_primary_variables">
+            <xpath expr="//link[last()]" position="after">
+                <link rel="stylesheet" type="text/scss" href="/theme_minimal/static/src/scss/primary_variables.scss"/>
+            </xpath>
+        </template> -->
+    
+        <!-- <template id="assets_backend" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/theme_minimal/static/src/js/website_sale_video_field_preview.js"></script>
+                <script type="text/javascript" src="/theme_minimal/static/src/js/website_sale_backend.js"></script>
+                <link rel="stylesheet" type="text/scss" href="/theme_minimal/static/src/scss/website_sale_dashboard.scss"/>
+                <link rel="stylesheet" type="text/scss" href="/theme_minimal/static/src/scss/website_sale_backend.scss"/>
+                <script type="text/javascript" src="/theme_minimal/static/src/js/tours/website_sale_shop_backend.js"></script>
+            </xpath>
+        </template> -->
+    
+        <template id="assets_frontend" inherit_id="website.assets_frontend">
+            <xpath expr="link[last()]" position="after">
+                <link rel="stylesheet" type="text/scss" href="/theme_minimal/static/src/scss/shop.scss" />
+                <link rel="stylesheet" type="text/scss" href="/theme_minimal/static/src/scss/header.scss" />
+            </xpath>
+            <!-- <xpath expr="script[last()]" position="after">
+                <script type="text/javascript" src="/sale/static/src/js/variant_mixin.js"></script>
+                <script type="text/javascript" src="/theme_minimal/static/src/js/variant_mixin.js"></script>
+                <script type="text/javascript" src="/theme_minimal/static/src/js/website_sale.js"></script>
+                <script type="text/javascript" src="/theme_minimal/static/src/js/website_sale_utils.js"></script>
+                <script type="text/javascript" src="/theme_minimal/static/src/js/website_sale_payment.js"></script>
+                <script type="text/javascript" src="/theme_minimal/static/src/js/website_sale_validate.js"></script>
+                <script type="text/javascript" src="/theme_minimal/static/src/js/website_sale_recently_viewed.js"></script>
+                <script type="text/javascript" src="/theme_minimal/static/src/js/website_sale_tracking.js"></script>
+            </xpath> -->
+        </template>
+    
+        <!-- <template id="assets_wysiwyg" inherit_id="website.assets_wysiwyg" name="Shop Wysiwyg Editor">
+            <xpath expr="//link[last()]" position="after">
+                <link rel="stylesheet" type="text/scss" href="/theme_minimal/static/src/scss/website_sale.editor.scss"/>
+                <script type="text/javascript" src="/theme_minimal/static/src/snippets/s_dynamic_snippet_products/options.js"/>
+            </xpath>
+        </template>
+    
+        <template id="assets_editor" inherit_id="website.assets_editor" name="Shop Editor">
+            <xpath expr="//script[last()]" position="after">
+                <script type="text/javascript" src="/theme_minimal/static/src/js/website_sale.editor.js"></script>
+                <script type="text/javascript" src="/theme_minimal/static/src/js/website_sale_form_editor.js"></script>
+                <script type="text/javascript" src="/theme_minimal/static/src/js/tours/website_sale_shop_frontend.js"></script>
+            </xpath>
+        </template>
+    
+        <template id="assets_common" name="tour" inherit_id="web.assets_common">
+            <xpath expr="." position="inside">
+                <script type="text/javascript" src="/theme_minimal/static/src/js/tours/website_sale_shop.js"></script>
+            </xpath>
+        </template> -->
+
+
+    </data>
+</odoo>

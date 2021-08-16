@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <template id="tp_products" inherit_id="website_sale.products">
+            <xpath expr="//div[@id='wrap']" position="attributes">
+                <attribute name="class">tp_wrap</attribute>
+            </xpath>
+        </template>
+    </data>
+</odoo>

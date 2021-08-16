@@ -1,0 +1,25 @@
+<odoo>
+
+    <record id="th_minimal_website_menus_form_view" model="ir.ui.view">
+        <field name="name">th.minimal.website.menu.form.view</field>
+        <field name="model">website.menu</field>
+        <field name="inherit_id" ref="website.website_menus_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='url']" position="after">
+                <field name="icon_image"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="th_minimal_menu_tree" model="ir.ui.view">
+        <field name="name">th.minimal.website.menu.tree</field>
+        <field name="model">website.menu</field>
+        <field name="inherit_id" ref="website.menu_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='website_id']" position="before">
+                <field name="icon_image"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
